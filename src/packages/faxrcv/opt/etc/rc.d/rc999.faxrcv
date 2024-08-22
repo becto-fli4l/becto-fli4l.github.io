@@ -1,0 +1,14 @@
+#!/bin/sh
+#------------------------------------------------------------------------------
+# /etc/rc.d/rc999.wlan                                             __FLI4LVER__
+#
+# Creation:	    11.10.2014 cspiess
+# Last Update:  $Id: rc999.faxrcv 45108 2016-03-20 16:32:03Z cspiess $
+#------------------------------------------------------------------------------
+
+##HWSUPP## extension begin
+if [ -f /usr/local/bin/faxrcv_setleds ]
+then 
+    /usr/local/bin/faxrcv_setleds off
+fi
+##HWSUPP## extension end
