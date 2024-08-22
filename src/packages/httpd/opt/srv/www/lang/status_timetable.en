@@ -1,0 +1,6 @@
+﻿#!/bin/sh
+# syslog.cgi
+# Last Update:  $Id: status_timetable.en 51847 2018-03-06 14:55:07Z kristov $
+_TT_for="Timetable for"
+_TT_lcr="LCR Connections"
+_TT_btov="Back to main table"

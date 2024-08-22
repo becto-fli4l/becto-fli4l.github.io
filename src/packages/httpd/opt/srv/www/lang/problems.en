@@ -1,0 +1,5 @@
+##!/bin/sh
+ $Id: problems.en 51847 2018-03-06 14:55:07Z kristov $
+﻿_PROB_coredumps="Core Dumps"
+_PROB_filename="Filename"
+_PROB_date="Creation date"

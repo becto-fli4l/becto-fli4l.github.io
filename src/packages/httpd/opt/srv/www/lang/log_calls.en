@@ -1,0 +1,6 @@
+﻿#!/bin/sh
+# calls.cgi
+# Last Update:  $Id: log_calls.en 51847 2018-03-06 14:55:07Z kristov $
+_CALL_dnr="Called phonenumber"
+_CALL_ingnr="Phonenumber of Caller"
+_CALL_telmondlog="the telmond logfile"
