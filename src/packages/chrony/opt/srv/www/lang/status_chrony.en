@@ -1,0 +1,9 @@
+﻿#!/bin/sh
+#------------------------------------------------------------------------------
+# /srv/www/lang/status_chrony.[lang]                               __FLI4LVER__
+# Creation:     2013-05-24 lanspezi
+# Last Update:  $Id: status_chrony.en 51847 2018-03-06 14:55:07Z kristov $
+#------------------------------------------------------------------------------
+
+_CHRONY_title="Status of Chrony time synchronisation"
+
