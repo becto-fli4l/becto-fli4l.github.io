@@ -1,0 +1,22 @@
+#!/bin/sh
+#------------------------------------------------------------------------------
+# /etc/rc.d/rc041.hosts - create hosts-file
+#
+# Creation:     2007-02-03 lanspezi
+# Last Update:  $Id: rc041.hosts 49649 2017-12-20 21:34:39Z kristov $
+#------------------------------------------------------------------------------
+
+# hosts
+# -----
+
+begin_script HOSTS "creating hosts-files ...."
+. /etc/rc.d/helper-hosts.sh
+
+mkdir -p /etc/hosts.d
+ln -s ../hosts /etc/hosts.d/hosts
+
+create_dns_hosts
+
+create_dns_hosts_extra
+
+end_script

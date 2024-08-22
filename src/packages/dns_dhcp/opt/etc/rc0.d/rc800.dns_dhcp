@@ -1,0 +1,13 @@
+##-----------------------------------------------------------------------------
+## /etc/rc0.d/rc800.dns_dhcp - saves the leas-file of dhcpd
+##
+## Creation:     27.01.2013 lanspezi
+## Last Update:  $Id: rc800.dns_dhcp 25289 2013-01-27 13:01:10Z lanspezi $
+##
+##-----------------------------------------------------------------------------
+
+if [ -f /var/run/iscdhcpd.leases ]
+then
+    . /var/run/dhcp_leases_dir
+    cp /var/run/iscdhcpd.leases $DHCP_LEASES_DIR
+fi
