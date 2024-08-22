@@ -1,0 +1,16 @@
+#!/bin/sh
+#------------------------------------------------------------------------------
+# /usr/bin/reset_keyprog                                            __FLI4LVER__
+# Creation:     11.10.2014 cspiess
+# Last Update:  $Id: reset_keyprog 51847 2018-03-06 14:55:07Z kristov $
+#------------------------------------------------------------------------------
+
+case "$#" in
+    0)
+        reboot
+    ;;
+    *)
+        myname=`basename $0`
+        echo "Usage: $myname"
+    ;;
+esac

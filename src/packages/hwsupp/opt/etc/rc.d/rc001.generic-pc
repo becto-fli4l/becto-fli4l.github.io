@@ -1,0 +1,14 @@
+#!/bin/sh
+#------------------------------------------------------------------------------
+# /etc/rc.d/rc001.generic-pc                                      __FLI4LVER__
+#
+# Creation:     26.08.2014 cspiess
+# Last Update:  $Id: rc001.generic-pc 57041 2019-10-31 15:43:36Z cspiess $
+#------------------------------------------------------------------------------
+
+begin_script HWSUPP "load drivers for generic PC"
+
+# load LED driver
+do_modprobe input-leds
+
+end_script
