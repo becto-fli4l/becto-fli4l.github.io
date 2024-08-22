@@ -1,0 +1,13 @@
+#!/bin/sh
+#----------------------------------------------------------------------------
+# /etc/rc.d/rc310.dhcpcd - startup of DHCPCD
+#
+# Creation:     04.05.2002 od
+# Last Update:  $Id: rc310.dhcpcd 33129 2014-09-23 19:21:32Z kristov $
+#----------------------------------------------------------------------------
+
+begin_script DHCP_CLIENT "configuring DHCP client dhcpcd..."
+
+mkdir -p /var/db
+
+end_script
