@@ -1,0 +1,7 @@
+﻿#!/bin/sh
+# calls.cgi
+# Traduit par Bernard Charrier
+# Last Update:  $Id: log_calls.fr 51847 2018-03-06 14:55:07Z kristov $
+_CALL_dnr="Numéro d'appel"
+_CALL_ingnr="Numéro du correspondant"
+_CALL_telmondlog="Telmond Fichier-log"

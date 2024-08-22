@@ -1,0 +1,9 @@
+﻿#!/bin/sh
+# syslog.cgi
+# Last Update:  $Id: log_syslog.de 51847 2018-03-06 14:55:07Z kristov $
+_SLOG_nosyslog="Der syslogd ist nicht installiert"
+_SLOG_nofile="Kein Systemprotokoll gefunden für folgende Einstellung:"
+_SLOG_message="Nachricht"
+_SLOG_syslogfacil="Bereich" 
+_SLOG_loghost="Protokollrechner"
+_SLOG_syslogfile="Systemprotokoll"

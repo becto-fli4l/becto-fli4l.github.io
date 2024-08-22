@@ -1,0 +1,10 @@
+﻿#!/bin/sh
+# portfw6.fr
+# Traduit par Bernard Charrier
+# Last Update:  $Id: portfw6.fr 51847 2018-03-06 14:55:07Z kristov $
+
+# Title and Tabs
+_MP_portfw6="Redirection des ports (IPv6)"
+_PF6_portforwarding="Redirection des ports (IPv6)"
+
+. /srv/www/lang/portfw.fr

@@ -1,0 +1,6 @@
+﻿#!/bin/sh
+# timetable.cgi
+# Last Update:  $Id: status_timetable.de 51847 2018-03-06 14:55:07Z kristov $
+_TT_for="Zeitplan für"
+_TT_lcr="LCR-Verbindungen"
+_TT_btov="Zurück zur Übersicht"

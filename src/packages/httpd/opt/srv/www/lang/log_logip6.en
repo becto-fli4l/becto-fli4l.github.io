@@ -1,0 +1,7 @@
+﻿#!/bin/sh
+# logip6.cgi
+# Last Update:  $Id: log_logip6.en 51847 2018-03-06 14:55:07Z kristov $
+_MP_logip6="WAN IPv6 protocol"
+_LOGIP6_maintitle="WAN IPv6 protocol"
+
+. /srv/www/lang/log_logip.en

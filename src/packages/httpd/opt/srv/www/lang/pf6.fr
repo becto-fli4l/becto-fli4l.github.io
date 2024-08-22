@@ -1,0 +1,7 @@
+﻿#!/bin/sh
+# pf6.cgi
+# Traduit par Bernard Charrier
+# Last Update:  $Id: pf6.fr 51847 2018-03-06 14:55:07Z kristov $
+
+# menu items
+_MP_pf6="Filtrage de paquets (IPv6)"

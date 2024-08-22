@@ -1,0 +1,5 @@
+##!/bin/sh
+ $Id: problems.fr 51847 2018-03-06 14:55:07Z kristov $
+﻿_PROB_coredumps="Images de la mémoire"
+_PROB_filename="Nom de fichier"
+_PROB_date="Date de création"

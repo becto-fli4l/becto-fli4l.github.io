@@ -1,0 +1,4 @@
+﻿#!/bin/sh
+# pf.cgi
+# Traduit par Bernard Charrier
+# Last Update:  $Id: pf.fr 51847 2018-03-06 14:55:07Z kristov $
