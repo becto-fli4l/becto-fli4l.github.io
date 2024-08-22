@@ -1,0 +1,10 @@
+##-----------------------------------------------------------------------------
+## /etc/rc0.d/rc800.cpmvrmlog - copy or move files on shutdown
+##
+## Creation:     23.05.2004  lanspezi
+## Last Update:  $Id: rc800.cpmvrmlog 5618 2004-05-23 09:24:02Z lanspezi $
+##
+##-----------------------------------------------------------------------------
+
+/usr/local/bin/cpmvrmlog.sh
+
