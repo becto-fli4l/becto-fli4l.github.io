@@ -1,0 +1,9 @@
+#------------------------------------------------------------------------------
+# fli4l __FLI4LVER__ - extended check script for kernel 5.6.19
+#
+# Last Update:  $Id: kernel_5_6.ext 58737 2020-06-18 15:14:16Z florian $
+#
+# Copyright (c) 2001-2020 - Frank Meyer, fli4l-Team <team@fli4l.de>
+#------------------------------------------------------------------------------
+
+provides kernel_v56 version 5.6.19
