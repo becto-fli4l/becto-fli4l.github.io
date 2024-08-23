@@ -1,0 +1,7 @@
+﻿#!/bin/sh
+# metalog.cgi
+# Last Update:  $Id: log_metalog.en 51847 2018-03-06 14:55:07Z kristov $
+_MLOG_nofile="No file found for Syslog-Target:"
+_MLOG_message="Message"
+_MLOG_syslogfacil="Facility"
+_MLOG_syslogfile="Syslog-Logfile"
