@@ -1,0 +1,13 @@
+#-----------------------------------------------------------------------------
+# /etc/rc0.d/rc401.phonebook - sichern phonebook                  __FLI4LVER__
+#
+# Creation:     10.04.2008 jk
+# Last UPdate:  $Id: rc401.phonebook 19583 2011-05-01 12:14:35Z arwin $
+#-----------------------------------------------------------------------------
+
+# Variablen lesen
+. /var/run/phonebook.conf
+if [ "$PHONEBOOK_SR_SAVE" != "" ]
+then
+  cp /etc/phonebook $PHONEBOOK_SR_SAVE
+fi
