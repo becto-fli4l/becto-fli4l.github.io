@@ -1,0 +1,19 @@
+#----------------------------------------------------------------------------
+#  ucarp.txt - optional files for ucarp                        ___FLI4LVER___
+#
+#  Creation:     26.04.2009  Michael Knipping <fli4l@knibo.de>
+#  Last Update: $Id: ucarp.txt 51847 2018-03-06 14:55:07Z kristov $
+#
+#  Copyright (c) 2008-2016 - fli4l-Team <team@fli4l.de>
+#----------------------------------------------------------------------------
+
+opt_format_version 1 -
+
+#------------------------------------------------------------------------------
+# optional ucarp, used if OPT_UCARP='yes'
+#------------------------------------------------------------------------------
+
+ucarp          yes      etc/rc.d/rc462.ucarp mode=555 flags=sh
+ucarp          yes      etc/ppp/ip-down862.ucarp mode=555 flags=sh
+ucarp          yes      etc/ppp/ip-up862.ucarp mode=555 flags=sh
+ucarp          yes      usr/sbin/ucarp mode=555

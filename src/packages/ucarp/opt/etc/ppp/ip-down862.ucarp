@@ -1,0 +1,12 @@
+#! /bin/sh
+#----------------------------------------------------------------------------
+# /opt/etc/ppp/ip-down862.ucarp                                  __FLI4LVER__
+#
+# Creation:     26.04.2009  Michael Knipping <fli4l@knibo.de>
+# Last Update:  $Id: ip-down862.ucarp 23289 2012-08-08 14:09:36Z kristov $
+#----------------------------------------------------------------------------
+
+if [ "$is_default_route" = "yes" ]
+then
+    killall ucarp
+fi
