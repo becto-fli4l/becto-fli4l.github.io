@@ -1,0 +1,8 @@
+# part of Package DYNDNS __FLI4LVER__, see documentation for licence
+# Provider rz9.de
+# Removed: Closed down...
+# Last change: $Id: provider.RZ9 11314 2006-04-07 09:59:11Z jw5 $
+provider_update_type='gnudip'
+provider_script='/gnudip/cgi-bin/gdipupdt.cgi'
+provider_host='www.rz9.de'
+provider_port='80'
