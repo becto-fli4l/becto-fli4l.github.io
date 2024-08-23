@@ -1,0 +1,10 @@
+#!/bin/sh
+#----------------------------------------------------------------------------
+# /etc/ppp/ip-up800.igmpproxy - (re-)start igmpproxy
+#
+# Last Update:  $Id: ip-up800.igmpproxy 55659 2019-04-24 11:13:41Z florian $
+#----------------------------------------------------------------------------
+
+echo '(re-)starting IGMP proxy...'
+
+reload-igmpproxy.sh

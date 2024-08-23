@@ -1,0 +1,10 @@
+#!/bin/sh
+#----------------------------------------------------------------------------
+# /etc/ppp/ip-up800.improxy - (re-)start improxy
+#
+# Last Update:  $Id: ip-up800.improxy 55659 2019-04-24 11:13:41Z florian $
+#----------------------------------------------------------------------------
+
+echo '(re-)starting IGMPv3/MLD proxy...'
+
+reload-improxy.sh
