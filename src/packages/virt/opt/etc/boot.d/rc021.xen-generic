@@ -1,0 +1,12 @@
+#!/bin/sh
+#----------------------------------------------------------------------------
+# /etc/boot.d/rc021.hd-xen-generic
+#
+# Last Update:  $Id: rc021.xen-generic 56840 2019-09-26 20:17:50Z florian $
+#----------------------------------------------------------------------------
+
+begin_script BOOT "loading Xen drivers ..."
+
+do_modprobe_if_exists kernel/drivers/block xen-blkfront
+
+end_script

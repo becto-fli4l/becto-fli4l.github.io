@@ -1,0 +1,13 @@
+#!/bin/sh
+#----------------------------------------------------------------------------
+# /etc/rc.d/rc121.xen-net - loading Xen network driver
+#
+# Creation:     25.02.2019  florian
+# Last Update:  $Id: rc121.xen-net 56794 2019-09-23 13:04:38Z florian $
+#----------------------------------------------------------------------------
+
+begin_script NET "loading Xen network drivers ..."
+
+load_driver xen-netfront ""
+
+end_script

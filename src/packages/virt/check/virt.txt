@@ -1,0 +1,18 @@
+﻿#------------------------------------------------------------------------------
+#
+# fli4l __FLI4LVER__ - configuration parameters for virt
+#
+# Last Update:  $Id: virt.txt 60461 2021-07-22 20:20:13Z alex $
+#
+# Copyright (c) 2002-2021 - fli4l-Team <team@fli4l.de>
+#------------------------------------------------------------------------------
+
+# Variable                 OPT_VARIABLE            VARIABLE_N              VALUE
+OPT_XEN                    -                       -                       YESNO "no"
+
+OPT_VIRTIO                 -                       -                       YESNO "no"
+VIRTIO_QEMU_GUEST_AGENT    OPT_VIRTIO              -                       YESNO "no"
+
+OPT_VMWARE                 -                       -                       YESNO "no"
+
+OPT_HYPERV                 -                       -                       YESNO "no"

@@ -1,0 +1,12 @@
+#!/bin/sh
+#----------------------------------------------------------------------------
+# /etc/boot.d/rc022.virtio-console
+#
+# Last Update:  $Id: rc022.virtio-console 56839 2019-09-26 20:03:39Z alex $
+#----------------------------------------------------------------------------
+
+begin_script BOOT "loading virtio console drivers ..."
+
+do_modprobe_if_exists kernel/drivers/char virtio_console
+
+end_script
