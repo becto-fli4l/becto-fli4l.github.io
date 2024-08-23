@@ -1,0 +1,16 @@
+#!/bin/sh
+#------------------------------------------------------------------------------
+# /etc/rc.d/rc100.openssl                                          __FLI4LVER__
+#
+# Last Update:  $Id: rc100.openssl 46350 2016-09-19 19:45:05Z kristov $
+#------------------------------------------------------------------------------
+
+OPENSSL_CONFIG=/etc/ssl/openssl.cnf
+
+if [ "$OPT_OPENSSL" = yes ]
+then
+    begin_script CERT "preparing OpenSSL configuration ..."
+    mkdir -p "$(dirname "$OPENSSL_CONFIG")"
+    > "$OPENSSL_CONFIG"
+    end_script
+fi
