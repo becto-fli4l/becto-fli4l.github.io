@@ -1,0 +1,12 @@
+#!/bin/sh
+# ----------------------------------------------------------------------------
+# /etc/boot.d/rc004.usb.rpi - loading low-level USB platform drivers
+#
+# Last Update:  $Id: rc010.usb.rpi 40271 2015-07-08 13:09:02Z florian $
+# ----------------------------------------------------------------------------
+
+begin_script USB_PLATFORM "loading USB platform drivers ..."
+
+do_modprobe dwc_otg fiq_enable=0 fiq_fsm_enable=0 lpm_enable=0
+
+end_script USB_PLATFORM
