@@ -1,0 +1,5 @@
+﻿#!/bin/sh
+# status_system.cgi
+
+# Last Update:  $Id: status_system.en 52215 2018-03-25 13:32:24Z lanspezi $
+_STAT__SYS_cpuusage="CPU-Usage"
