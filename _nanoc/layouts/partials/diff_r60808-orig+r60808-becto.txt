@@ -1,0 +1,17 @@
+A	_TOOLS/_gitdiff-r60808-orig+r60808-becto.sh
+A	_nanoc/Rules
+A	_nanoc/content/index.html
+A	_nanoc/content/stylesheet.css
+A	_nanoc/layouts/default.html
+A	_nanoc/layouts/partials/gitHeadInfo.tex
+A	_nanoc/lib/helpers.rb
+A	_nanoc/nanoc.yaml
+A	_patch-svn+repo.nettworks.org/base_add_igc.ko.patch
+A	_stash-svn+repo.nettworks.org/_svn-repo.nettworks.org~packages.sh
+A	bin/_svn-repo.nettworks.org~bin.sh
+A	docs/index.html
+A	docs/stylesheet.css
+A	src/_mkfli4lgit.conf
+A	src/_mkfli4lgit.sh
+M	src/packages/base/check/base.exp
+M	src/packages/base/opt/base.txt
