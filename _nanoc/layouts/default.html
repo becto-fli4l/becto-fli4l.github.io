@@ -12,6 +12,11 @@
   <body>
     <div id="main">
       <%= yield %>
+      <hr>
+      <p>gitinfo/branch: &rarr; build from: <a href="https://github.com/becto-fli4l/becto-fli4l.github.io/tree/fli4l-r60808-becto" target="_blank">fli4l-r60808-becto</a></p>
+      <p><small><pre><%= render '/partials/gitHeadInfo.*' %></pre></small></p>
+      <p>gitinfo/diff: &rarr; diff (exclude): <a href="https://github.com/becto-fli4l/becto-fli4l.github.io/blob/fli4l-r60808-becto/_TOOLS/_gitdiff-r60808-orig%2Br60808-becto.sh" target="_blank">_TOOLS/_gitdiff-r60808-orig+r60808-becto.sh</a></p>
+      <p><small><pre><%= render '/partials/diff_r60808-orig+r60808-becto.txt' %></pre></small></p>
     </div>
     <div id="sidebar">
       <h2>Documentation</h2>
@@ -23,11 +28,16 @@
       <ul>
         <li><a href="https://lists.spline.de/pipermail/fli4l_dev" target="_blank">spline.fli4l.dev | archiv</a></li>
       </ul>
-        <h2>github-branches</h2>
+      <h2>github-branches</h2>
       <ul>
         <li><a href="https://github.com/becto-fli4l/becto-fli4l.github.io/tree/fli4l-upstream-harvey" target="_blank">fli4l-upstream-harvey</a></li>
-        <li><a href="https://github.com/becto-fli4l/becto-fli4l.github.io/tree/fli4l-r60808-orig" target="_blank">fli4l-r60808-orig</a></li>
+        <li>___</li>
         <li><a href="https://github.com/becto-fli4l/becto-fli4l.github.io/tree/fli4l-r60808-becto" target="_blank">fli4l-r60808-becto</a></li>
+        <li><a href="https://github.com/becto-fli4l/becto-fli4l.github.io/tree/fli4l-r60808-orig" target="_blank">fli4l-r60808-orig</a></li>
+      </ul>
+     <h2>github-diff</h2>
+      <ul>
+        <li></li>
       </ul>
       <h2>Community</h2>
       <ul>
