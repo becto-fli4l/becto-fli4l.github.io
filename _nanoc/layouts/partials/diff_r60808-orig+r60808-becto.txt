@@ -3,6 +3,7 @@ A	_nanoc/Rules
 A	_nanoc/content/index.html
 A	_nanoc/content/stylesheet.css
 A	_nanoc/layouts/default.html
+A	_nanoc/layouts/partials/diff_r60808-orig+r60808-becto.txt
 A	_nanoc/layouts/partials/gitHeadInfo.tex
 A	_nanoc/lib/helpers.rb
 A	_nanoc/nanoc.yaml
